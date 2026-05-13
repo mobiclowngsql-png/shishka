@@ -1,0 +1,35 @@
+```
+# Compiled files
+*.dcu
+*.dcp
+*.bpl
+*.dpl
+*.map
+*.tds
+*.local
+
+# Build directories
+__history/
+DPR/
+BPL/
+DCP/
+
+# IDE files
+*.identcache
+*.stat
+*.tvsconfig
+*.groupproj
+*.groupprog
+
+# Windows files
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+.env.*
+```
