@@ -3,6 +3,7 @@ program NoteManagerApp;
 uses
   Vcl.Forms,
   Winapi.Windows,
+  System.SysUtils,
   MainForm in '..\presentation\forms\MainForm.pas' {frmMain},
   Note in '..\domain\Entities\Note.pas',
   Reminder in '..\domain\Entities\Reminder.pas',
