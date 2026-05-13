@@ -1,5 +1,5 @@
 ```
-# Compiled and binary files
+# Compiled and build artifacts
 *.dpr~
 *.compiled
 *.o
@@ -10,52 +10,28 @@
 *.a
 *.out
 
-# Dependencies and build directories
+# Dependencies
 lib/
-packages/
-__pycache__/
-*.pyc
-*.pyo
-.Python
-env/
-venv/
-.venv/
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+libs/
+dependencies/
 
-# IDE specific files
-.vscode/
-.idea/
+# Logs and temp files
+*.log
+*.tmp
 *.swp
 *.swo
-*~
+
+# Editors
+.vscode/
+.idea/
+
+# Build outputs
+build/
+dist/
+output/
+target/
+
+# System files
 .DS_Store
 Thumbs.db
-
-# Logs
-*.log
-
-# Environment variables
-.env
-.env.local
-*.env.*
-
-# Coverage reports
-coverage/
-htmlcov/
-.coverage
-
-# Distribution / packaging
-dist/
-build/
-*.tar.gz
-*.whl
-*.egg
-*.egg-info/
-
-# Testing
-.pytest_cache/
-.mypy_cache/
 ```

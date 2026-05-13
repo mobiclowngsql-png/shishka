@@ -1,4 +1,4 @@
-program NoteManagerApp;
+PROGRAM NoteManagerApp;
 
 uses
   Vcl.Forms,
