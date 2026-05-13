@@ -1,21 +1,45 @@
 ```
-# Compiled and build artifacts
-*.dproj.local
-*.dproj.user
-*.identcache
-*.local
+# Compiled and binary files
+*.drc
+*.compiled
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
+# Build artifacts
+*.res
+*.rsm
+*.tds
+*.map
+
+# Dependencies
+lib/
+packages/
+
+# Logs and temp files
 *.log
 *.tmp
 *.~*
-# Dependencies
-lib/
+*~
+
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
+
 # Editors
 .vscode/
 .idea/
 *.swp
 *.swo
+
+# Distribution and build
+dist/
+build/
+output/
+_DelphiProjects/
 ```
