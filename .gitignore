@@ -1,59 +1,21 @@
 ```
-# Build artifacts
-*.dproj
-*.manifest
-BUILD.bat
-resources/app.rc
-
-# Logs and temp files
+# Compiled and build artifacts
+*.dproj.local
+*.dproj.user
+*.identcache
+*.local
 *.log
 *.tmp
-
+*.~*
+# Dependencies
+lib/
 # Environment
 .env
 .env.local
-*.env.*
-
+.env.*
 # Editors
 .vscode/
 .idea/
-
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Coverage reports
-coverage/
-htmlcov/
-.coverage
-
-# Dependency directories
-node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-target/
-.gradle/
-
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
+*.swp
+*.swo
 ```
